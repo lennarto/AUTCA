@@ -136,4 +136,9 @@ volatile unsigned char *pI2CDataAvailable;
 void I2CWrite(unsigned char I2CAddr, unsigned char RegAddr, unsigned char data);
 void I2CRead(unsigned char I2CAddr, unsigned char RegAddr, unsigned int len, char* cBuff);
 
+void slow(RICHTUNG);
+void nach_links();
+void nach_rechts();
+void wenden();
+
 #endif /* HEAD_H_ */

@@ -71,8 +71,8 @@ int main() {
 		}
 
 		// ZU HOHE STEIGUNG
-		// RUTSCHE RUNTER FAHREN
-		if (AcY < -3500*v) {
+		// RUTSCHE WIEDER RUNTER FAHREN
+		if (AcY < -4000*v) {
 			*pwm_enable = 0;
 			v = 1;
 			slopespeed = slopespeed_slow;

@@ -81,7 +81,7 @@ int main() {
 				delayXXX = 10000000*0.70;
 				printf("delay kurz 075");
 				a = 0;
-		  }
+		  	}
 
 			if (AcX > 301 && AcX < 400) {
 				delayXXX = 10000000*0.65;
@@ -104,7 +104,7 @@ int main() {
 				delayXXX = 10000000*0.55;
 				printf("delay 07");
 				a = 0;
-		  }
+		  	}
 
 			if (AcX < -201 && AcX > -300) {
 				delayXXX = 10000000*0.75;
@@ -119,7 +119,7 @@ int main() {
 			}
 
 			if (AcX < -401 && AcX > -500) {
-			  delayXXX = 10000000*0.85;
+			  	delayXXX = 10000000*0.85;
 				printf("delay 058");
 				a = 1;
 			}
@@ -127,13 +127,13 @@ int main() {
 			if (AcX < -501 && AcX > -600) {
 				delayXXX = 10000000*0.9;
 				printf("delay 099");
-		   	a = 1;
+		   		a = 1;
 			}
 
 			else {
-		    delayXXX = 10000000*0.60;
-		    printf("delay lang");
-		  }
+		    		delayXXX = 10000000*0.60;
+				printf("delay lang");
+			}
 
 			// TURN AROUND WITH DALAY a
 			wenden(a);
